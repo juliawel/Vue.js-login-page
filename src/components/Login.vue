@@ -10,9 +10,11 @@
                 <label for="password">Password</label>
                 <input type="password" v-model="password" placeholder="Enter password" required>
             </div>
-            <button type="submit">Login</button>
+            <a href="#">Forgot password?</a>
             <input type="checkbox" checked="checked">Remember me
-            <a href="">Forgot password?</a>
+            <button type="submit">Login</button>
+            <p>Don't have an account?</p>
+            <a href="#">Signup</a>
         </form>
     </div>
 </template>
