@@ -10,6 +10,7 @@
                 <label for="password">Password</label>
                 <input type="password" v-model="password" required>
             </div>
+            <button type="submit">Login</button>
         </form>
     </div>
 </template>
