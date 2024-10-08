@@ -3,3 +3,7 @@
         
     </div>
 </template>
+
+<script>
+    import 'assets/main.css';
+</script>
