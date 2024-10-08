@@ -14,7 +14,7 @@
             <input type="checkbox" checked="checked">Remember me
             <button type="submit">Login</button>
             <p>Don't have an account?</p>
-            <a href="#">Signup</a>
+            <a href="Signup.vue">Signup</a>
         </form>
     </div>
 </template>
