@@ -4,11 +4,11 @@
         <form @submit.prevent="loginUser">
             <div>
                 <label for="email">Email</label>
-                <input type="email" v-model="email" required>
+                <input type="email" v-model="email" placeholder="Enter username" required>
             </div>
             <div>
                 <label for="password">Password</label>
-                <input type="password" v-model="password" required>
+                <input type="password" v-model="password" placeholder="Enter password" required>
             </div>
             <button type="submit">Login</button>
             <input type="checkbox" checked="checked">Remember me
