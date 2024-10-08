@@ -11,6 +11,8 @@
                 <input type="password" v-model="password" required>
             </div>
             <button type="submit">Login</button>
+            <input type="checkbox" checked="checked">Remember me
+            <a href="">Forgot password?</a>
         </form>
     </div>
 </template>
