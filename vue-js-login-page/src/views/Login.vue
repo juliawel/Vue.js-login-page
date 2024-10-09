@@ -1,3 +1,5 @@
+<!-- eslint-disable-next-line vue/multi-word-component-names -->
+ 
 <template>
   <main class="login">
 
@@ -30,9 +32,11 @@
 <script>
 
 import {ref} from 'vue'
-import {useStore} from 'vuex'
+//import {useStore} from 'vuex'
 
 export default {
+    name: "LoginPage",
+    
     setup () {
         const login_form = ref({});
         const register_form = ref({});
