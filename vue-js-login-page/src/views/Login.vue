@@ -21,7 +21,18 @@
         </form>
 
         <form class="login">
-
+            <h2>Login</h2>
+            <input 
+                type="email" 
+                placeholder="Email adress" 
+                v-model="login_form.email"/>
+            <input 
+                type="password"
+                placeholder="Password"
+                v-model="login_form.password"/>
+            <input 
+                type="submit"
+                value="Register"/>
         </form>
 
     </section>
