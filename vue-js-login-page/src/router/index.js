@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import { auth } from '../firebase'
 
 const routes = [
   {
@@ -28,6 +29,13 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  if(to.path === './login' && auth.currentUser) {
+    next('/')
+    return
+  }
 })
 
 export default router

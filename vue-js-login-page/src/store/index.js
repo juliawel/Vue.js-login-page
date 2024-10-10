@@ -4,7 +4,7 @@ import { auth } from '../firebase'
 import { createUserWithEmailAndPassword, 
          signInWithEmailAndPassword,
          signOut } from 'firebase/auth'
-import { createBlock } from 'vue'
+
 
 export default createStore({
   state: {
