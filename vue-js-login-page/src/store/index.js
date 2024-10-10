@@ -44,7 +44,12 @@ export default createStore({
       router.push('/')
     },
     async logout ({ commit}) {
-      //
+      await signOut(auth)
+
+      commit('CREAR_USER')
+
+      router.push('/login')
+
     },
     async register ({ commit}, details) {
       const { email, password } = details
