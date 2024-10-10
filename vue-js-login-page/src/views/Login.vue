@@ -32,7 +32,7 @@
                 v-model="login_form.password"/>
             <input 
                 type="submit"
-                value="Register"/>
+                value="Login"/>
         </form>
 
     </section>
