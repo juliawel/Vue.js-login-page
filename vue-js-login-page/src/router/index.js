@@ -8,7 +8,7 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      requiresAUth: true
+      requiresAuth: true
     }
   },
   {
@@ -34,8 +34,16 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   if(to.path === './login' && auth.currentUser) {
     next('/')
-    return
+    return;
   }
+
+  if (to.matched.some(record => record.meta.requiresAuth) && !auth.currentUser) {
+    next('/login')
+    return;
+    }
+
+    next();
+    
 })
 
 export default router
