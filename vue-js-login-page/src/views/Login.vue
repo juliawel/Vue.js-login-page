@@ -84,11 +84,11 @@ form {
 
 form.register {
 	color: #FFF;
-	background-color: rgb(245, 66, 101);
+	background-color: rgb(228, 174, 185);
 	background-image: linear-gradient(
 		to bottom right,
-		rgb(245, 66, 101) 0%,
-		rgb(189, 28, 60) 100%
+		rgb(228, 174, 185) 0%,
+		rgb(228, 174, 185) 100%
 	);
 }
 
@@ -137,7 +137,7 @@ form.login input:not([type="submit"]) {
 }
 
 form.login input[type="submit"] {
-	background-color: rgb(245, 66, 101);
+	background-color: rgb(228, 174, 185);
 	color: #FFF;
 	font-weight: 700;
 	padding: 1rem 2rem;
@@ -148,7 +148,7 @@ form.login input[type="submit"] {
 
 form.register input[type="submit"] {
 	background-color: #FFF;
-	color: rgb(245, 66, 101);
+	color: rgb(228, 174, 185);
 	font-weight: 700;
 	padding: 1rem 2rem;
 	border-radius: 0.5rem;
