@@ -1,5 +1,10 @@
 # Vue.js Firebase Authentication Project
 
+This app provides a basic authentication system using Vue.js and Firebase. Users can:
+- Register an account by providing an email and password.
+- Log in with their registered credentials.
+- Log out to end their session.
+
 ## Features
 
 - User Authentication: Users can register, log in, and log out using Firebase authentication services.
