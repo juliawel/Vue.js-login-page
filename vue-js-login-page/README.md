@@ -11,12 +11,12 @@
 
 ## Technologies
 
-- Vue.js 3: The progressive JavaScript framework used for building user interfaces.
-- Vue Router: For navigation and route protection based on user authentication state.
-- Vuex: For managing application state, including user data and session management.
-- Firebase Authentication: For secure user authentication and registration services.
-- JavaScript (ES6+): Modern JavaScript features for handling application logic and asynchronous operations.
-- CSS: Custom styling for the login and registration forms to ensure a consistent user experience.
+- Vue.js 3.
+- Vue Router.
+- Vuex.
+- Firebase Authentication.
+- JavaScript (ES6+).
+- CSS.
 
 ## What did I learn?
 
